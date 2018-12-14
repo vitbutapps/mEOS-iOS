@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE885E9121C39B6700F1D103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE885E9021C39B6700F1D103 /* AppDelegate.swift */; };
+		FE885E9321C39B6700F1D103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE885E9221C39B6700F1D103 /* ViewController.swift */; };
+		FE885E9621C39B6700F1D103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE885E9421C39B6700F1D103 /* Main.storyboard */; };
+		FE885E9821C39B6800F1D103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE885E9721C39B6800F1D103 /* Assets.xcassets */; };
+		FE885E9B21C39B6800F1D103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE885E9921C39B6800F1D103 /* LaunchScreen.storyboard */; };
+		FE885EA621C39B6900F1D103 /* MEOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE885EA521C39B6900F1D103 /* MEOSTests.swift */; };
+		FE885EB121C39B6900F1D103 /* MEOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE885EB021C39B6900F1D103 /* MEOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE885EA221C39B6900F1D103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE885E8521C39B6700F1D103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE885E8C21C39B6700F1D103;
+			remoteInfo = MEOS;
+		};
+		FE885EAD21C39B6900F1D103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE885E8521C39B6700F1D103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE885E8C21C39B6700F1D103;
+			remoteInfo = MEOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE885E8D21C39B6700F1D103 /* MEOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE885E9021C39B6700F1D103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE885E9221C39B6700F1D103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE885E9521C39B6700F1D103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE885E9721C39B6800F1D103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE885E9A21C39B6800F1D103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE885E9C21C39B6800F1D103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE885EA121C39B6900F1D103 /* MEOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE885EA521C39B6900F1D103 /* MEOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOSTests.swift; sourceTree = "<group>"; };
+		FE885EA721C39B6900F1D103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE885EAC21C39B6900F1D103 /* MEOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE885EB021C39B6900F1D103 /* MEOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOSUITests.swift; sourceTree = "<group>"; };
+		FE885EB221C39B6900F1D103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE885E8A21C39B6700F1D103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE885E9E21C39B6900F1D103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE885EA921C39B6900F1D103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE885E8421C39B6700F1D103 = {
+			isa = PBXGroup;
+			children = (
+				FE885E8F21C39B6700F1D103 /* MEOS */,
+				FE885EA421C39B6900F1D103 /* MEOSTests */,
+				FE885EAF21C39B6900F1D103 /* MEOSUITests */,
+				FE885E8E21C39B6700F1D103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE885E8E21C39B6700F1D103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE885E8D21C39B6700F1D103 /* MEOS.app */,
+				FE885EA121C39B6900F1D103 /* MEOSTests.xctest */,
+				FE885EAC21C39B6900F1D103 /* MEOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE885E8F21C39B6700F1D103 /* MEOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE885E9021C39B6700F1D103 /* AppDelegate.swift */,
+				FE885E9221C39B6700F1D103 /* ViewController.swift */,
+				FE885E9421C39B6700F1D103 /* Main.storyboard */,
+				FE885E9721C39B6800F1D103 /* Assets.xcassets */,
+				FE885E9921C39B6800F1D103 /* LaunchScreen.storyboard */,
+				FE885E9C21C39B6800F1D103 /* Info.plist */,
+			);
+			path = MEOS;
+			sourceTree = "<group>";
+		};
+		FE885EA421C39B6900F1D103 /* MEOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE885EA521C39B6900F1D103 /* MEOSTests.swift */,
+				FE885EA721C39B6900F1D103 /* Info.plist */,
+			);
+			path = MEOSTests;
+			sourceTree = "<group>";
+		};
+		FE885EAF21C39B6900F1D103 /* MEOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE885EB021C39B6900F1D103 /* MEOSUITests.swift */,
+				FE885EB221C39B6900F1D103 /* Info.plist */,
+			);
+			path = MEOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE885E8C21C39B6700F1D103 /* MEOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE885EB521C39B6900F1D103 /* Build configuration list for PBXNativeTarget "MEOS" */;
+			buildPhases = (
+				FE885E8921C39B6700F1D103 /* Sources */,
+				FE885E8A21C39B6700F1D103 /* Frameworks */,
+				FE885E8B21C39B6700F1D103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEOS;
+			productName = MEOS;
+			productReference = FE885E8D21C39B6700F1D103 /* MEOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE885EA021C39B6900F1D103 /* MEOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE885EB821C39B6900F1D103 /* Build configuration list for PBXNativeTarget "MEOSTests" */;
+			buildPhases = (
+				FE885E9D21C39B6900F1D103 /* Sources */,
+				FE885E9E21C39B6900F1D103 /* Frameworks */,
+				FE885E9F21C39B6900F1D103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE885EA321C39B6900F1D103 /* PBXTargetDependency */,
+			);
+			name = MEOSTests;
+			productName = MEOSTests;
+			productReference = FE885EA121C39B6900F1D103 /* MEOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE885EAB21C39B6900F1D103 /* MEOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE885EBB21C39B6900F1D103 /* Build configuration list for PBXNativeTarget "MEOSUITests" */;
+			buildPhases = (
+				FE885EA821C39B6900F1D103 /* Sources */,
+				FE885EA921C39B6900F1D103 /* Frameworks */,
+				FE885EAA21C39B6900F1D103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE885EAE21C39B6900F1D103 /* PBXTargetDependency */,
+			);
+			name = MEOSUITests;
+			productName = MEOSUITests;
+			productReference = FE885EAC21C39B6900F1D103 /* MEOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE885E8521C39B6700F1D103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Vitaliy;
+				TargetAttributes = {
+					FE885E8C21C39B6700F1D103 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FE885EA021C39B6900F1D103 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FE885E8C21C39B6700F1D103;
+					};
+					FE885EAB21C39B6900F1D103 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FE885E8C21C39B6700F1D103;
+					};
+				};
+			};
+			buildConfigurationList = FE885E8821C39B6700F1D103 /* Build configuration list for PBXProject "MEOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE885E8421C39B6700F1D103;
+			productRefGroup = FE885E8E21C39B6700F1D103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE885E8C21C39B6700F1D103 /* MEOS */,
+				FE885EA021C39B6900F1D103 /* MEOSTests */,
+				FE885EAB21C39B6900F1D103 /* MEOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE885E8B21C39B6700F1D103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE885E9B21C39B6800F1D103 /* LaunchScreen.storyboard in Resources */,
+				FE885E9821C39B6800F1D103 /* Assets.xcassets in Resources */,
+				FE885E9621C39B6700F1D103 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE885E9F21C39B6900F1D103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE885EAA21C39B6900F1D103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE885E8921C39B6700F1D103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE885E9321C39B6700F1D103 /* ViewController.swift in Sources */,
+				FE885E9121C39B6700F1D103 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE885E9D21C39B6900F1D103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE885EA621C39B6900F1D103 /* MEOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE885EA821C39B6900F1D103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE885EB121C39B6900F1D103 /* MEOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE885EA321C39B6900F1D103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE885E8C21C39B6700F1D103 /* MEOS */;
+			targetProxy = FE885EA221C39B6900F1D103 /* PBXContainerItemProxy */;
+		};
+		FE885EAE21C39B6900F1D103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE885E8C21C39B6700F1D103 /* MEOS */;
+			targetProxy = FE885EAD21C39B6900F1D103 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE885E9421C39B6700F1D103 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE885E9521C39B6700F1D103 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE885E9921C39B6800F1D103 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE885E9A21C39B6800F1D103 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE885EB321C39B6900F1D103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE885EB421C39B6900F1D103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE885EB621C39B6900F1D103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2SDG25HB4;
+				INFOPLIST_FILE = MEOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.MEOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE885EB721C39B6900F1D103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2SDG25HB4;
+				INFOPLIST_FILE = MEOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.MEOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE885EB921C39B6900F1D103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2SDG25HB4;
+				INFOPLIST_FILE = MEOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.MEOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEOS.app/MEOS";
+			};
+			name = Debug;
+		};
+		FE885EBA21C39B6900F1D103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2SDG25HB4;
+				INFOPLIST_FILE = MEOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.MEOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEOS.app/MEOS";
+			};
+			name = Release;
+		};
+		FE885EBC21C39B6900F1D103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2SDG25HB4;
+				INFOPLIST_FILE = MEOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.MEOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MEOS;
+			};
+			name = Debug;
+		};
+		FE885EBD21C39B6900F1D103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2SDG25HB4;
+				INFOPLIST_FILE = MEOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.MEOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MEOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE885E8821C39B6700F1D103 /* Build configuration list for PBXProject "MEOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE885EB321C39B6900F1D103 /* Debug */,
+				FE885EB421C39B6900F1D103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE885EB521C39B6900F1D103 /* Build configuration list for PBXNativeTarget "MEOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE885EB621C39B6900F1D103 /* Debug */,
+				FE885EB721C39B6900F1D103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE885EB821C39B6900F1D103 /* Build configuration list for PBXNativeTarget "MEOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE885EB921C39B6900F1D103 /* Debug */,
+				FE885EBA21C39B6900F1D103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE885EBB21C39B6900F1D103 /* Build configuration list for PBXNativeTarget "MEOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE885EBC21C39B6900F1D103 /* Debug */,
+				FE885EBD21C39B6900F1D103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE885E8521C39B6700F1D103 /* Project object */;
+}
