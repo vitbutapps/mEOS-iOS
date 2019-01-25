@@ -4,14 +4,14 @@ The first full-fledged mobile application for the EOS blockchain network
 <a href="https://www.mobileeos.io">www.mobileeos.io</a>
 <br>
 <br>
-<a href="https://itunes.apple.com/us/app/meos-folio/id1448413142?mt=8"><img src="http://www.mobileeos.io/img/appstore.png" width="135" hight="40" alt=""></a>
+<a href="https://apple.co/2FNMpct"><img src="http://www.mobileeos.io/img/appstore.png" width="135" hight="40" alt=""></a>
 <br>
 <br>
 <img src="http://www.mobileeos.io/images/Real.png" width="250" alt="">
 <img src="http://www.mobileeos.io/images/Real1.png" width="250" alt="">
 <br>
 <br>
-<a href="https://itunes.apple.com/us/app/meos-folio/id1448413142?mt=8"><img src="http://www.mobileeos.io/img/appstore.png" width="135" hight="40" alt=""></a>
+<a href="https://apple.co/2FNMpct"><img src="http://www.mobileeos.io/img/appstore.png" width="135" hight="40" alt=""></a>
 <br>
 <br>
 The intuitive design of the application allows the user to easily understand the operation of the application. 
