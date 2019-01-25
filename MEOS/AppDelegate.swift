@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MODAppSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let dapp = MODapp()
+        dapp.name = "MEOS";
+        dapp.icon = "https://static.ethte.com/more/images/bigicon.png";
+        dapp.version = "1.0";
+        dapp.dappDescription = "MEOS is the first full-fledged mobile application for using IOS on Apple devices";
+        dapp.uuID = "6e76f5ef-86da-441f-9be8-f7bebef72f9f";
+        
+        MODAppSDK.register(withDApp: dapp, dappScheme: "MEOSApp", redirectURLString: "https://www.mobileeos.io")
+        
+        MOSimpleWalletSDK.register(withDApp: dapp)
+        
         return true
     }
 

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.30.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.19.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imge_top" translatesAutoresizingMaskIntoConstraints="NO" id="D6v-Xf-XP3">
+                                <rect key="frame" x="0.0" y="423" width="375" height="244"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="244" id="0pu-n8-rye"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="2PD-BH-gTc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="244"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="244" id="7i9-FU-FHr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ar-Ay-ic9">
+                                <rect key="frame" x="80" y="300" width="215" height="87.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="74"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile blockchain dashboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCP-fd-3e7">
+                                <rect key="frame" x="16" y="395.5" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.51617517609999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.066666666666666666" green="0.14117647058823529" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="D6v-Xf-XP3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="08c-iT-7Ob"/>
+                            <constraint firstItem="2ar-Ay-ic9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1wz-PC-hSK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VCP-fd-3e7" secondAttribute="trailing" constant="16" id="8fQ-pA-37Z"/>
+                            <constraint firstItem="D6v-Xf-XP3" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="90l-mz-w7H"/>
+                            <constraint firstItem="2PD-BH-gTc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ArC-oA-eie"/>
+                            <constraint firstItem="VCP-fd-3e7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="HkH-wZ-7h8"/>
+                            <constraint firstItem="2ar-Ay-ic9" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="KA8-kL-WdO"/>
+                            <constraint firstItem="2PD-BH-gTc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QDy-4R-iWl"/>
+                            <constraint firstItem="VCP-fd-3e7" firstAttribute="top" secondItem="2ar-Ay-ic9" secondAttribute="bottom" constant="8" id="WHt-QW-2KM"/>
+                            <constraint firstItem="D6v-Xf-XP3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ftC-XE-4Qp"/>
+                            <constraint firstItem="2PD-BH-gTc" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="sa5-Hp-Rox"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-273" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image_bottom" width="273" height="167"/>
+        <image name="imge_top" width="273" height="237"/>
+    </resources>
+</document>

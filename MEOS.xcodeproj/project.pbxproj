@@ -7,6 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FC9C8CBEBD630D573F309F4 /* Pods_MEOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542C21D102DA8776594B6B81 /* Pods_MEOS.framework */; };
+		5A9731F15D5674B96C7FD628 /* Pods_MEOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58E73A34EBCA03E0A0A7B6C /* Pods_MEOSUITests.framework */; };
+		FE379D7521DCB93B00F81BDB /* VBNetowrksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE379D7421DCB93B00F81BDB /* VBNetowrksTableViewCell.swift */; };
+		FE379D7721DCBDDE00F81BDB /* OnBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE379D7621DCBDDE00F81BDB /* OnBoard.storyboard */; };
+		FE379D7A21DCCB8C00F81BDB /* VBEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE379D7921DCCB8C00F81BDB /* VBEnterViewController.swift */; };
+		FE379D7C21DE873A00F81BDB /* AccountNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE379D7B21DE873A00F81BDB /* AccountNames.swift */; };
+		FE379D7E21DE9E4600F81BDB /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE379D7D21DE9E4600F81BDB /* History.swift */; };
+		FE6D0D0621C8D34E00CAE199 /* VBAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D0521C8D34E00CAE199 /* VBAccountView.swift */; };
+		FE6D0D0821C8D36D00CAE199 /* AccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE6D0D0721C8D36D00CAE199 /* AccountView.xib */; };
+		FE6D0D0A21C8EB3900CAE199 /* VBAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D0921C8EB3900CAE199 /* VBAccountViewController.swift */; };
+		FE6D0D0C21C8F0DE00CAE199 /* AccountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D0B21C8F0DE00CAE199 /* AccountData.swift */; };
+		FE6D0D0F21C8F27000CAE199 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D0E21C8F27000CAE199 /* Network.swift */; };
+		FE6D0D1121C8F32E00CAE199 /* TokensList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D1021C8F32E00CAE199 /* TokensList.swift */; };
+		FE6D0D1321C8FB4D00CAE199 /* VBTokenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D1221C8FB4D00CAE199 /* VBTokenCell.swift */; };
+		FE6D0D1521C8FB5E00CAE199 /* TokenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE6D0D1421C8FB5E00CAE199 /* TokenCell.xib */; };
+		FE6D0D1821C903D100CAE199 /* VBTokenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D1721C903D100CAE199 /* VBTokenTableViewCell.swift */; };
+		FE6D0D1A21C90D5100CAE199 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D1921C90D5100CAE199 /* Tokens.swift */; };
+		FE6D0D2121C9213200CAE199 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D1B21C9213200CAE199 /* Double.swift */; };
+		FE6D0D2221C9213200CAE199 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D1C21C9213200CAE199 /* UIView.swift */; };
+		FE6D0D2321C9213200CAE199 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D1D21C9213200CAE199 /* UIColor.swift */; };
+		FE6D0D2421C9213200CAE199 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D1E21C9213200CAE199 /* UIViewController.swift */; };
+		FE6D0D2521C9213200CAE199 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D1F21C9213200CAE199 /* String.swift */; };
+		FE6D0D2621C9213200CAE199 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D2021C9213200CAE199 /* Results.swift */; };
+		FE6D0D2821C9217100CAE199 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D2721C9217100CAE199 /* Account.swift */; };
+		FE6D0D2A21C9383600CAE199 /* EosPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D2921C9383600CAE199 /* EosPrice.swift */; };
+		FE6D0D2C21C95DC800CAE199 /* TableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D2B21C95DC800CAE199 /* TableViewHelper.swift */; };
+		FE6D0D3021CA36B100CAE199 /* VBVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D2F21CA36B100CAE199 /* VBVoteViewController.swift */; };
+		FE6D0D3221CA417700CAE199 /* BPList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D3121CA417700CAE199 /* BPList.swift */; };
+		FE6D0D3521CA4F3F00CAE199 /* BPRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D3421CA4F3F00CAE199 /* BPRealm.swift */; };
+		FE6D0D3721CA558A00CAE199 /* VBVoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D3621CA558A00CAE199 /* VBVoteTableViewCell.swift */; };
+		FE6D0D3921CA55E500CAE199 /* VBProdusserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D3821CA55E500CAE199 /* VBProdusserCell.swift */; };
+		FE6D0D3B21CA55F900CAE199 /* ProdusserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE6D0D3A21CA55F900CAE199 /* ProdusserCell.xib */; };
+		FE6D0D3D21CA84F900CAE199 /* ChainInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D3C21CA84F900CAE199 /* ChainInfo.swift */; };
+		FE6D0D3F21CA869A00CAE199 /* ChainBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D3E21CA869A00CAE199 /* ChainBlock.swift */; };
+		FE6D0D4121CA9C2100CAE199 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0D4021CA9C2100CAE199 /* Transactions.swift */; };
+		FE6D0F1421CAE90A00CAE199 /* BigNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E8621CAE90A00CAE199 /* BigNumber.m */; };
+		FE6D0F1521CAE90A00CAE199 /* NSData+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E8921CAE90A00CAE199 /* NSData+Extend.m */; };
+		FE6D0F1621CAE90A00CAE199 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E8B21CAE90A00CAE199 /* NSData+Hash.m */; };
+		FE6D0F1721CAE90A00CAE199 /* NSMutableData+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E8D21CAE90A00CAE199 /* NSMutableData+Extend.m */; };
+		FE6D0F1821CAE90A00CAE199 /* NSString+Base58.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E8F21CAE90A00CAE199 /* NSString+Base58.m */; };
+		FE6D0F1921CAE90A00CAE199 /* SHAHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E9121CAE90A00CAE199 /* SHAHash.m */; };
+		FE6D0F1A21CAE90A00CAE199 /* ChildNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E9621CAE90A00CAE199 /* ChildNumber.m */; };
+		FE6D0F1B21CAE90A00CAE199 /* DeterministicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E9821CAE90A00CAE199 /* DeterministicKey.m */; };
+		FE6D0F1C21CAE90A00CAE199 /* ECKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E9A21CAE90A00CAE199 /* ECKey.m */; };
+		FE6D0F1D21CAE90A00CAE199 /* ECKeySignature.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E9C21CAE90A00CAE199 /* ECKeySignature.m */; };
+		FE6D0F1E21CAE90A00CAE199 /* EosDeterministicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0E9F21CAE90A00CAE199 /* EosDeterministicKey.m */; };
+		FE6D0F1F21CAE90A00CAE199 /* EosECKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EA121CAE90A00CAE199 /* EosECKey.m */; };
+		FE6D0F2021CAE90A00CAE199 /* EOSAccountName.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EA421CAE90A00CAE199 /* EOSAccountName.m */; };
+		FE6D0F2121CAE90A00CAE199 /* EOSAccountPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EA621CAE90A00CAE199 /* EOSAccountPermission.m */; };
+		FE6D0F2221CAE90A00CAE199 /* EOSAccountPermissionWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EA821CAE90A00CAE199 /* EOSAccountPermissionWeight.m */; };
+		FE6D0F2321CAE90A00CAE199 /* EOSAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EAA21CAE90A00CAE199 /* EOSAction.m */; };
+		FE6D0F2421CAE90A00CAE199 /* EOSAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EAC21CAE90A00CAE199 /* EOSAddress.m */; };
+		FE6D0F2521CAE90A00CAE199 /* EOSAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EAE21CAE90A00CAE199 /* EOSAuthority.m */; };
+		FE6D0F2621CAE90A00CAE199 /* EOSKeyPermissionWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EB021CAE90A00CAE199 /* EOSKeyPermissionWeight.m */; };
+		FE6D0F2721CAE90A00CAE199 /* EOSTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EB221CAE90A00CAE199 /* EOSTransaction.m */; };
+		FE6D0F2821CAE90A00CAE199 /* EOSWaitWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EB421CAE90A00CAE199 /* EOSWaitWeight.m */; };
+		FE6D0F2921CAE90A00CAE199 /* EOSAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EB721CAE90A00CAE199 /* EOSAsset.m */; };
+		FE6D0F2A21CAE90A00CAE199 /* EOSBuyRamMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EB921CAE90A00CAE199 /* EOSBuyRamMessageData.m */; };
+		FE6D0F2B21CAE90A00CAE199 /* EOSByteMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EBB21CAE90A00CAE199 /* EOSByteMessageData.m */; };
+		FE6D0F2C21CAE90A00CAE199 /* EOSDelegatebwMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EBD21CAE90A00CAE199 /* EOSDelegatebwMessageData.m */; };
+		FE6D0F2D21CAE90A00CAE199 /* EOSNewMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EC021CAE90A00CAE199 /* EOSNewMessageData.m */; };
+		FE6D0F2E21CAE90A00CAE199 /* EOSRegProxyMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EC221CAE90A00CAE199 /* EOSRegProxyMessageData.m */; };
+		FE6D0F2F21CAE90A00CAE199 /* EOSSellRamMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EC421CAE90A00CAE199 /* EOSSellRamMessageData.m */; };
+		FE6D0F3021CAE90A00CAE199 /* EOSTxMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EC621CAE90A00CAE199 /* EOSTxMessageData.m */; };
+		FE6D0F3121CAE90A00CAE199 /* EOSUnDelegatebwMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EC821CAE90A00CAE199 /* EOSUnDelegatebwMessageData.m */; };
+		FE6D0F3221CAE90A00CAE199 /* EOSVoteProducerMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0ECA21CAE90A00CAE199 /* EOSVoteProducerMessageData.m */; };
+		FE6D0F3321CAE90A00CAE199 /* MnemonicCode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0ECC21CAE90A00CAE199 /* MnemonicCode.m */; };
+		FE6D0F3521CAE90A00CAE199 /* bignum.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0ED021CAE90A00CAE199 /* bignum.c */; };
+		FE6D0F3621CAE90A00CAE199 /* bip39.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0ED221CAE90A00CAE199 /* bip39.c */; };
+		FE6D0F3721CAE90A00CAE199 /* blake256.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0ED421CAE90A00CAE199 /* blake256.c */; };
+		FE6D0F3821CAE90A00CAE199 /* ecdsa.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0ED621CAE90A00CAE199 /* ecdsa.c */; };
+		FE6D0F3921CAE90A00CAE199 /* hasher.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0ED821CAE90A00CAE199 /* hasher.c */; };
+		FE6D0F3A21CAE90A00CAE199 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EDA21CAE90A00CAE199 /* hmac.c */; };
+		FE6D0F3B21CAE90A00CAE199 /* memzero.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EDC21CAE90A00CAE199 /* memzero.c */; };
+		FE6D0F3C21CAE90A00CAE199 /* pbkdf2.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EDF21CAE90A00CAE199 /* pbkdf2.c */; };
+		FE6D0F3D21CAE90A00CAE199 /* rand.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EE121CAE90A00CAE199 /* rand.c */; };
+		FE6D0F3E21CAE90A00CAE199 /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EE421CAE90A00CAE199 /* ripemd160.c */; };
+		FE6D0F3F21CAE90A00CAE199 /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0EE621CAE90A00CAE199 /* secp256k1.c */; };
+		FE6D0F4021CAE90A00CAE199 /* secp256k1.table in Resources */ = {isa = PBXBuildFile; fileRef = FE6D0EE821CAE90A00CAE199 /* secp256k1.table */; };
+		FE6D0F4121CAE90A00CAE199 /* secp256k1_zkp.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F0D21CAE90A00CAE199 /* secp256k1_zkp.c */; };
+		FE6D0F4221CAE90A00CAE199 /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F1021CAE90A00CAE199 /* sha2.c */; };
+		FE6D0F5321CAE93800CAE199 /* curve-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F4821CAE93800CAE199 /* curve-specific.inc */; };
+		FE6D0F5421CAE93800CAE199 /* platform-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F4A21CAE93800CAE199 /* platform-specific.inc */; };
+		FE6D0F5521CAE93800CAE199 /* ripemds160.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F4B21CAE93800CAE199 /* ripemds160.c */; };
+		FE6D0F5621CAE93800CAE199 /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F4E21CAE93800CAE199 /* uECC.c */; };
+		FE6D0F6321CAEB2500CAE199 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F5F21CAEB2500CAE199 /* PrivateKey.swift */; };
+		FE6D0F6421CAEB2500CAE199 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F6021CAEB2500CAE199 /* Crypto.swift */; };
+		FE6D0F6521CAEB2500CAE199 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F6121CAEB2500CAE199 /* PublicKey.swift */; };
+		FE6D0F6621CAEB2500CAE199 /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F6221CAEB2500CAE199 /* KeyPair.swift */; };
+		FE6D0F6721CAED8A00CAE199 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = FE6D0F4621CAE93800CAE199 /* base58.c */; };
+		FE75B6DC21CB8380009768D2 /* VBStakedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75B6DB21CB8380009768D2 /* VBStakedViewController.swift */; };
+		FE75B6DE21CB90F4009768D2 /* VBStakedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75B6DD21CB90F4009768D2 /* VBStakedView.swift */; };
+		FE75B6E021CB9102009768D2 /* StakedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE75B6DF21CB9102009768D2 /* StakedView.xib */; };
 		FE885E9121C39B6700F1D103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE885E9021C39B6700F1D103 /* AppDelegate.swift */; };
 		FE885E9321C39B6700F1D103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE885E9221C39B6700F1D103 /* ViewController.swift */; };
 		FE885E9621C39B6700F1D103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE885E9421C39B6700F1D103 /* Main.storyboard */; };
@@ -14,6 +107,21 @@
 		FE885E9B21C39B6800F1D103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE885E9921C39B6800F1D103 /* LaunchScreen.storyboard */; };
 		FE885EA621C39B6900F1D103 /* MEOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE885EA521C39B6900F1D103 /* MEOSTests.swift */; };
 		FE885EB121C39B6900F1D103 /* MEOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE885EB021C39B6900F1D103 /* MEOSUITests.swift */; };
+		FE8F388421CCDE0100789A2B /* VBTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F388321CCDE0100789A2B /* VBTransferViewController.swift */; };
+		FE8F388721CCEECF00789A2B /* EOSNoticeMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F388621CCEECF00789A2B /* EOSNoticeMessageData.m */; };
+		FE8F388921CD6E4600789A2B /* TokensRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F388821CD6E4600789A2B /* TokensRealm.swift */; };
+		FE8F388C21CDD74E00789A2B /* HalfModalInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F388B21CDD74E00789A2B /* HalfModalInteractiveTransition.swift */; };
+		FE8F388E21CDD76A00789A2B /* HalfModalTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F388D21CDD76A00789A2B /* HalfModalTransitionAnimator.swift */; };
+		FE8F389021CDD78300789A2B /* HalfModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F388F21CDD78300789A2B /* HalfModalTransitioningDelegate.swift */; };
+		FE8F389521CDD83500789A2B /* HalfModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F389421CDD83500789A2B /* HalfModalPresentationController.swift */; };
+		FE8F389721CDD85E00789A2B /* Modal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8F389621CDD85E00789A2B /* Modal.storyboard */; };
+		FE8F389A21CDD89100789A2B /* VBSelectAssetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F389921CDD89100789A2B /* VBSelectAssetsViewController.swift */; };
+		FE8F389C21D0F65D00789A2B /* VBSettingsNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F389B21D0F65D00789A2B /* VBSettingsNavViewController.swift */; };
+		FE8F389F21D0F71800789A2B /* VBSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F389E21D0F71800789A2B /* VBSettingsViewController.swift */; };
+		FE8F38A121D11BD100789A2B /* VBNetworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F38A021D11BD100789A2B /* VBNetworksViewController.swift */; };
+		FEC470AD21C7AED40035BB0A /* VBMainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC470AC21C7AED40035BB0A /* VBMainTabViewController.swift */; };
+		FEF167C921C3B49B004497B3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF167C821C3B49B004497B3 /* Security.framework */; };
+		FF8C674051568BDF4F585BA5 /* Pods_MEOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD988D626162A44E1979707 /* Pods_MEOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +142,202 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D49989C881F4D82C5A05EEB /* Pods-MEOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MEOSTests/Pods-MEOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FBE7571ACC88B9DE4CB8AF1 /* Pods-MEOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MEOSUITests/Pods-MEOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		542C21D102DA8776594B6B81 /* Pods_MEOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DAE5A8E4C55FDD20330FB8 /* Pods-MEOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MEOSUITests/Pods-MEOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95D0A8705E28BDE5D262FBED /* Pods-MEOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MEOS/Pods-MEOS.release.xcconfig"; sourceTree = "<group>"; };
+		9D0AEF87BFB63037308FADE0 /* Pods-MEOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MEOSTests/Pods-MEOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A58E73A34EBCA03E0A0A7B6C /* Pods_MEOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCB663810599D48D68ADB5F /* Pods-MEOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MEOS/Pods-MEOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EBD988D626162A44E1979707 /* Pods_MEOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE379D7421DCB93B00F81BDB /* VBNetowrksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBNetowrksTableViewCell.swift; sourceTree = "<group>"; };
+		FE379D7621DCBDDE00F81BDB /* OnBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoard.storyboard; sourceTree = "<group>"; };
+		FE379D7921DCCB8C00F81BDB /* VBEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBEnterViewController.swift; sourceTree = "<group>"; };
+		FE379D7B21DE873A00F81BDB /* AccountNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNames.swift; sourceTree = "<group>"; };
+		FE379D7D21DE9E4600F81BDB /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		FE6D0D0521C8D34E00CAE199 /* VBAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBAccountView.swift; sourceTree = "<group>"; };
+		FE6D0D0721C8D36D00CAE199 /* AccountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountView.xib; sourceTree = "<group>"; };
+		FE6D0D0921C8EB3900CAE199 /* VBAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBAccountViewController.swift; sourceTree = "<group>"; };
+		FE6D0D0B21C8F0DE00CAE199 /* AccountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountData.swift; sourceTree = "<group>"; };
+		FE6D0D0D21C8F13000CAE199 /* MEOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MEOS.entitlements; sourceTree = "<group>"; };
+		FE6D0D0E21C8F27000CAE199 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FE6D0D1021C8F32E00CAE199 /* TokensList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensList.swift; sourceTree = "<group>"; };
+		FE6D0D1221C8FB4D00CAE199 /* VBTokenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBTokenCell.swift; sourceTree = "<group>"; };
+		FE6D0D1421C8FB5E00CAE199 /* TokenCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TokenCell.xib; sourceTree = "<group>"; };
+		FE6D0D1721C903D100CAE199 /* VBTokenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBTokenTableViewCell.swift; sourceTree = "<group>"; };
+		FE6D0D1921C90D5100CAE199 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		FE6D0D1B21C9213200CAE199 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		FE6D0D1C21C9213200CAE199 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FE6D0D1D21C9213200CAE199 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FE6D0D1E21C9213200CAE199 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		FE6D0D1F21C9213200CAE199 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FE6D0D2021C9213200CAE199 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		FE6D0D2721C9217100CAE199 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		FE6D0D2921C9383600CAE199 /* EosPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EosPrice.swift; sourceTree = "<group>"; };
+		FE6D0D2B21C95DC800CAE199 /* TableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHelper.swift; sourceTree = "<group>"; };
+		FE6D0D2F21CA36B100CAE199 /* VBVoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBVoteViewController.swift; sourceTree = "<group>"; };
+		FE6D0D3121CA417700CAE199 /* BPList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPList.swift; sourceTree = "<group>"; };
+		FE6D0D3421CA4F3F00CAE199 /* BPRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPRealm.swift; sourceTree = "<group>"; };
+		FE6D0D3621CA558A00CAE199 /* VBVoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBVoteTableViewCell.swift; sourceTree = "<group>"; };
+		FE6D0D3821CA55E500CAE199 /* VBProdusserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBProdusserCell.swift; sourceTree = "<group>"; };
+		FE6D0D3A21CA55F900CAE199 /* ProdusserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProdusserCell.xib; sourceTree = "<group>"; };
+		FE6D0D3C21CA84F900CAE199 /* ChainInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainInfo.swift; sourceTree = "<group>"; };
+		FE6D0D3E21CA869A00CAE199 /* ChainBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainBlock.swift; sourceTree = "<group>"; };
+		FE6D0D4021CA9C2100CAE199 /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		FE6D0E8521CAE90A00CAE199 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNumber.h; sourceTree = "<group>"; };
+		FE6D0E8621CAE90A00CAE199 /* BigNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigNumber.m; sourceTree = "<group>"; };
+		FE6D0E8721CAE90A00CAE199 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		FE6D0E8821CAE90A00CAE199 /* NSData+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Extend.h"; sourceTree = "<group>"; };
+		FE6D0E8921CAE90A00CAE199 /* NSData+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extend.m"; sourceTree = "<group>"; };
+		FE6D0E8A21CAE90A00CAE199 /* NSData+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
+		FE6D0E8B21CAE90A00CAE199 /* NSData+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hash.m"; sourceTree = "<group>"; };
+		FE6D0E8C21CAE90A00CAE199 /* NSMutableData+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Extend.h"; sourceTree = "<group>"; };
+		FE6D0E8D21CAE90A00CAE199 /* NSMutableData+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Extend.m"; sourceTree = "<group>"; };
+		FE6D0E8E21CAE90A00CAE199 /* NSString+Base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base58.h"; sourceTree = "<group>"; };
+		FE6D0E8F21CAE90A00CAE199 /* NSString+Base58.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base58.m"; sourceTree = "<group>"; };
+		FE6D0E9021CAE90A00CAE199 /* SHAHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAHash.h; sourceTree = "<group>"; };
+		FE6D0E9121CAE90A00CAE199 /* SHAHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAHash.m; sourceTree = "<group>"; };
+		FE6D0E9321CAE90A00CAE199 /* CoinFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinFamily.h; sourceTree = "<group>"; };
+		FE6D0E9521CAE90A00CAE199 /* ChildNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildNumber.h; sourceTree = "<group>"; };
+		FE6D0E9621CAE90A00CAE199 /* ChildNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNumber.m; sourceTree = "<group>"; };
+		FE6D0E9721CAE90A00CAE199 /* DeterministicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeterministicKey.h; sourceTree = "<group>"; };
+		FE6D0E9821CAE90A00CAE199 /* DeterministicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeterministicKey.m; sourceTree = "<group>"; };
+		FE6D0E9921CAE90A00CAE199 /* ECKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECKey.h; sourceTree = "<group>"; };
+		FE6D0E9A21CAE90A00CAE199 /* ECKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECKey.m; sourceTree = "<group>"; };
+		FE6D0E9B21CAE90A00CAE199 /* ECKeySignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECKeySignature.h; sourceTree = "<group>"; };
+		FE6D0E9C21CAE90A00CAE199 /* ECKeySignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECKeySignature.m; sourceTree = "<group>"; };
+		FE6D0E9E21CAE90A00CAE199 /* EosDeterministicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EosDeterministicKey.h; sourceTree = "<group>"; };
+		FE6D0E9F21CAE90A00CAE199 /* EosDeterministicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EosDeterministicKey.m; sourceTree = "<group>"; };
+		FE6D0EA021CAE90A00CAE199 /* EosECKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EosECKey.h; sourceTree = "<group>"; };
+		FE6D0EA121CAE90A00CAE199 /* EosECKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EosECKey.m; sourceTree = "<group>"; };
+		FE6D0EA321CAE90A00CAE199 /* EOSAccountName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSAccountName.h; sourceTree = "<group>"; };
+		FE6D0EA421CAE90A00CAE199 /* EOSAccountName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSAccountName.m; sourceTree = "<group>"; };
+		FE6D0EA521CAE90A00CAE199 /* EOSAccountPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSAccountPermission.h; sourceTree = "<group>"; };
+		FE6D0EA621CAE90A00CAE199 /* EOSAccountPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSAccountPermission.m; sourceTree = "<group>"; };
+		FE6D0EA721CAE90A00CAE199 /* EOSAccountPermissionWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSAccountPermissionWeight.h; sourceTree = "<group>"; };
+		FE6D0EA821CAE90A00CAE199 /* EOSAccountPermissionWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSAccountPermissionWeight.m; sourceTree = "<group>"; };
+		FE6D0EA921CAE90A00CAE199 /* EOSAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSAction.h; sourceTree = "<group>"; };
+		FE6D0EAA21CAE90A00CAE199 /* EOSAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSAction.m; sourceTree = "<group>"; };
+		FE6D0EAB21CAE90A00CAE199 /* EOSAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSAddress.h; sourceTree = "<group>"; };
+		FE6D0EAC21CAE90A00CAE199 /* EOSAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSAddress.m; sourceTree = "<group>"; };
+		FE6D0EAD21CAE90A00CAE199 /* EOSAuthority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSAuthority.h; sourceTree = "<group>"; };
+		FE6D0EAE21CAE90A00CAE199 /* EOSAuthority.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSAuthority.m; sourceTree = "<group>"; };
+		FE6D0EAF21CAE90A00CAE199 /* EOSKeyPermissionWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSKeyPermissionWeight.h; sourceTree = "<group>"; };
+		FE6D0EB021CAE90A00CAE199 /* EOSKeyPermissionWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSKeyPermissionWeight.m; sourceTree = "<group>"; };
+		FE6D0EB121CAE90A00CAE199 /* EOSTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSTransaction.h; sourceTree = "<group>"; };
+		FE6D0EB221CAE90A00CAE199 /* EOSTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSTransaction.m; sourceTree = "<group>"; };
+		FE6D0EB321CAE90A00CAE199 /* EOSWaitWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSWaitWeight.h; sourceTree = "<group>"; };
+		FE6D0EB421CAE90A00CAE199 /* EOSWaitWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSWaitWeight.m; sourceTree = "<group>"; };
+		FE6D0EB621CAE90A00CAE199 /* EOSAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSAsset.h; sourceTree = "<group>"; };
+		FE6D0EB721CAE90A00CAE199 /* EOSAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSAsset.m; sourceTree = "<group>"; };
+		FE6D0EB821CAE90A00CAE199 /* EOSBuyRamMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSBuyRamMessageData.h; sourceTree = "<group>"; };
+		FE6D0EB921CAE90A00CAE199 /* EOSBuyRamMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSBuyRamMessageData.m; sourceTree = "<group>"; };
+		FE6D0EBA21CAE90A00CAE199 /* EOSByteMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSByteMessageData.h; sourceTree = "<group>"; };
+		FE6D0EBB21CAE90A00CAE199 /* EOSByteMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSByteMessageData.m; sourceTree = "<group>"; };
+		FE6D0EBC21CAE90A00CAE199 /* EOSDelegatebwMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSDelegatebwMessageData.h; sourceTree = "<group>"; };
+		FE6D0EBD21CAE90A00CAE199 /* EOSDelegatebwMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSDelegatebwMessageData.m; sourceTree = "<group>"; };
+		FE6D0EBE21CAE90A00CAE199 /* EOSMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSMessageData.h; sourceTree = "<group>"; };
+		FE6D0EBF21CAE90A00CAE199 /* EOSNewMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSNewMessageData.h; sourceTree = "<group>"; };
+		FE6D0EC021CAE90A00CAE199 /* EOSNewMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSNewMessageData.m; sourceTree = "<group>"; };
+		FE6D0EC121CAE90A00CAE199 /* EOSRegProxyMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSRegProxyMessageData.h; sourceTree = "<group>"; };
+		FE6D0EC221CAE90A00CAE199 /* EOSRegProxyMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSRegProxyMessageData.m; sourceTree = "<group>"; };
+		FE6D0EC321CAE90A00CAE199 /* EOSSellRamMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSSellRamMessageData.h; sourceTree = "<group>"; };
+		FE6D0EC421CAE90A00CAE199 /* EOSSellRamMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSSellRamMessageData.m; sourceTree = "<group>"; };
+		FE6D0EC521CAE90A00CAE199 /* EOSTxMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSTxMessageData.h; sourceTree = "<group>"; };
+		FE6D0EC621CAE90A00CAE199 /* EOSTxMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSTxMessageData.m; sourceTree = "<group>"; };
+		FE6D0EC721CAE90A00CAE199 /* EOSUnDelegatebwMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSUnDelegatebwMessageData.h; sourceTree = "<group>"; };
+		FE6D0EC821CAE90A00CAE199 /* EOSUnDelegatebwMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSUnDelegatebwMessageData.m; sourceTree = "<group>"; };
+		FE6D0EC921CAE90A00CAE199 /* EOSVoteProducerMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOSVoteProducerMessageData.h; sourceTree = "<group>"; };
+		FE6D0ECA21CAE90A00CAE199 /* EOSVoteProducerMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOSVoteProducerMessageData.m; sourceTree = "<group>"; };
+		FE6D0ECB21CAE90A00CAE199 /* MnemonicCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MnemonicCode.h; sourceTree = "<group>"; };
+		FE6D0ECC21CAE90A00CAE199 /* MnemonicCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MnemonicCode.m; sourceTree = "<group>"; };
+		FE6D0ECE21CAE90A00CAE199 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		FE6D0ECF21CAE90A00CAE199 /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
+		FE6D0ED021CAE90A00CAE199 /* bignum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bignum.c; sourceTree = "<group>"; };
+		FE6D0ED121CAE90A00CAE199 /* bignum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bignum.h; sourceTree = "<group>"; };
+		FE6D0ED221CAE90A00CAE199 /* bip39.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bip39.c; sourceTree = "<group>"; };
+		FE6D0ED321CAE90A00CAE199 /* bip39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip39.h; sourceTree = "<group>"; };
+		FE6D0ED421CAE90A00CAE199 /* blake256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blake256.c; sourceTree = "<group>"; };
+		FE6D0ED521CAE90A00CAE199 /* blake256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blake256.h; sourceTree = "<group>"; };
+		FE6D0ED621CAE90A00CAE199 /* ecdsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecdsa.c; sourceTree = "<group>"; };
+		FE6D0ED721CAE90A00CAE199 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		FE6D0ED821CAE90A00CAE199 /* hasher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hasher.c; sourceTree = "<group>"; };
+		FE6D0ED921CAE90A00CAE199 /* hasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hasher.h; sourceTree = "<group>"; };
+		FE6D0EDA21CAE90A00CAE199 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		FE6D0EDB21CAE90A00CAE199 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		FE6D0EDC21CAE90A00CAE199 /* memzero.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memzero.c; sourceTree = "<group>"; };
+		FE6D0EDD21CAE90A00CAE199 /* memzero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memzero.h; sourceTree = "<group>"; };
+		FE6D0EDE21CAE90A00CAE199 /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		FE6D0EDF21CAE90A00CAE199 /* pbkdf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pbkdf2.c; sourceTree = "<group>"; };
+		FE6D0EE021CAE90A00CAE199 /* pbkdf2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbkdf2.h; sourceTree = "<group>"; };
+		FE6D0EE121CAE90A00CAE199 /* rand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rand.c; sourceTree = "<group>"; };
+		FE6D0EE221CAE90A00CAE199 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		FE6D0EE321CAE90A00CAE199 /* rfc6979.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfc6979.h; sourceTree = "<group>"; };
+		FE6D0EE421CAE90A00CAE199 /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
+		FE6D0EE521CAE90A00CAE199 /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
+		FE6D0EE621CAE90A00CAE199 /* secp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
+		FE6D0EE721CAE90A00CAE199 /* secp256k1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
+		FE6D0EE821CAE90A00CAE199 /* secp256k1.table */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secp256k1.table; sourceTree = "<group>"; };
+		FE6D0EEA21CAE90A00CAE199 /* bench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bench.h; sourceTree = "<group>"; };
+		FE6D0EEB21CAE90A00CAE199 /* borromean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = borromean.h; sourceTree = "<group>"; };
+		FE6D0EEC21CAE90A00CAE199 /* borromean_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = borromean_impl.h; sourceTree = "<group>"; };
+		FE6D0EED21CAE90A00CAE199 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		FE6D0EEE21CAE90A00CAE199 /* ecdh_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh_impl.h; sourceTree = "<group>"; };
+		FE6D0EEF21CAE90A00CAE199 /* ecdsa_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa_impl.h; sourceTree = "<group>"; };
+		FE6D0EF021CAE90A00CAE199 /* ecdsa_zkp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa_zkp.h; sourceTree = "<group>"; };
+		FE6D0EF121CAE90A00CAE199 /* eckey_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eckey_impl.h; sourceTree = "<group>"; };
+		FE6D0EF221CAE90A00CAE199 /* eckey_zkp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eckey_zkp.h; sourceTree = "<group>"; };
+		FE6D0EF321CAE90A00CAE199 /* ecmult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult.h; sourceTree = "<group>"; };
+		FE6D0EF421CAE90A00CAE199 /* ecmult_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_gen.h; sourceTree = "<group>"; };
+		FE6D0EF521CAE90A00CAE199 /* ecmult_gen_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_gen_impl.h; sourceTree = "<group>"; };
+		FE6D0EF621CAE90A00CAE199 /* ecmult_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecmult_impl.h; sourceTree = "<group>"; };
+		FE6D0EF721CAE90A00CAE199 /* field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
+		FE6D0EF821CAE90A00CAE199 /* field_10x26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_10x26.h; sourceTree = "<group>"; };
+		FE6D0EF921CAE90A00CAE199 /* field_10x26_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_10x26_impl.h; sourceTree = "<group>"; };
+		FE6D0EFA21CAE90A00CAE199 /* field_5x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52.h; sourceTree = "<group>"; };
+		FE6D0EFB21CAE90A00CAE199 /* field_5x52_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52_impl.h; sourceTree = "<group>"; };
+		FE6D0EFC21CAE90A00CAE199 /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_5x52_int128_impl.h; sourceTree = "<group>"; };
+		FE6D0EFD21CAE90A00CAE199 /* field_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_impl.h; sourceTree = "<group>"; };
+		FE6D0EFE21CAE90A00CAE199 /* group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = group.h; sourceTree = "<group>"; };
+		FE6D0EFF21CAE90A00CAE199 /* group_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = group_impl.h; sourceTree = "<group>"; };
+		FE6D0F0021CAE90A00CAE199 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		FE6D0F0121CAE90A00CAE199 /* hash_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash_impl.h; sourceTree = "<group>"; };
+		FE6D0F0221CAE90A00CAE199 /* libsecp256k1-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libsecp256k1-config.h"; sourceTree = "<group>"; };
+		FE6D0F0321CAE90A00CAE199 /* num.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num.h; sourceTree = "<group>"; };
+		FE6D0F0421CAE90A00CAE199 /* num_gmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num_gmp.h; sourceTree = "<group>"; };
+		FE6D0F0521CAE90A00CAE199 /* num_gmp_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num_gmp_impl.h; sourceTree = "<group>"; };
+		FE6D0F0621CAE90A00CAE199 /* num_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = num_impl.h; sourceTree = "<group>"; };
+		FE6D0F0721CAE90A00CAE199 /* rangeproof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rangeproof.h; sourceTree = "<group>"; };
+		FE6D0F0821CAE90A00CAE199 /* rangeproof_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rangeproof_impl.h; sourceTree = "<group>"; };
+		FE6D0F0921CAE90A00CAE199 /* scalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar.h; sourceTree = "<group>"; };
+		FE6D0F0A21CAE90A00CAE199 /* scalar_8x32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_8x32.h; sourceTree = "<group>"; };
+		FE6D0F0B21CAE90A00CAE199 /* scalar_8x32_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_8x32_impl.h; sourceTree = "<group>"; };
+		FE6D0F0C21CAE90A00CAE199 /* scalar_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scalar_impl.h; sourceTree = "<group>"; };
+		FE6D0F0D21CAE90A00CAE199 /* secp256k1_zkp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = secp256k1_zkp.c; sourceTree = "<group>"; };
+		FE6D0F0E21CAE90A00CAE199 /* secp256k1_zkp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1_zkp.h; sourceTree = "<group>"; };
+		FE6D0F0F21CAE90A00CAE199 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		FE6D0F1021CAE90A00CAE199 /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
+		FE6D0F1121CAE90A00CAE199 /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
+		FE6D0F1221CAE90A00CAE199 /* eosio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eosio.h; sourceTree = "<group>"; };
+		FE6D0F4621CAE93800CAE199 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		FE6D0F4721CAE93800CAE199 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		FE6D0F4821CAE93800CAE199 /* curve-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "curve-specific.inc"; sourceTree = "<group>"; };
+		FE6D0F4921CAE93800CAE199 /* libbase58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libbase58.h; sourceTree = "<group>"; };
+		FE6D0F4A21CAE93800CAE199 /* platform-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "platform-specific.inc"; sourceTree = "<group>"; };
+		FE6D0F4B21CAE93800CAE199 /* ripemds160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemds160.c; sourceTree = "<group>"; };
+		FE6D0F4C21CAE93800CAE199 /* ripemds160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemds160.h; sourceTree = "<group>"; };
+		FE6D0F4D21CAE93800CAE199 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		FE6D0F4E21CAE93800CAE199 /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
+		FE6D0F4F21CAE93800CAE199 /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
+		FE6D0F5021CAE93800CAE199 /* uECC_vli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC_vli.h; sourceTree = "<group>"; };
+		FE6D0F5F21CAEB2500CAE199 /* PrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		FE6D0F6021CAEB2500CAE199 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		FE6D0F6121CAEB2500CAE199 /* PublicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		FE6D0F6221CAEB2500CAE199 /* KeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
+		FE75B6DB21CB8380009768D2 /* VBStakedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBStakedViewController.swift; sourceTree = "<group>"; };
+		FE75B6DD21CB90F4009768D2 /* VBStakedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBStakedView.swift; sourceTree = "<group>"; };
+		FE75B6DF21CB9102009768D2 /* StakedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StakedView.xib; sourceTree = "<group>"; };
 		FE885E8D21C39B6700F1D103 /* MEOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE885E9021C39B6700F1D103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE885E9221C39B6700F1D103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +351,22 @@
 		FE885EAC21C39B6900F1D103 /* MEOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE885EB021C39B6900F1D103 /* MEOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOSUITests.swift; sourceTree = "<group>"; };
 		FE885EB221C39B6900F1D103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8F388321CCDE0100789A2B /* VBTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBTransferViewController.swift; sourceTree = "<group>"; };
+		FE8F388521CCEE6900789A2B /* EOSNoticeMessageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOSNoticeMessageData.h; sourceTree = "<group>"; };
+		FE8F388621CCEECF00789A2B /* EOSNoticeMessageData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOSNoticeMessageData.m; sourceTree = "<group>"; };
+		FE8F388821CD6E4600789A2B /* TokensRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensRealm.swift; sourceTree = "<group>"; };
+		FE8F388B21CDD74E00789A2B /* HalfModalInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalInteractiveTransition.swift; sourceTree = "<group>"; };
+		FE8F388D21CDD76A00789A2B /* HalfModalTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalTransitionAnimator.swift; sourceTree = "<group>"; };
+		FE8F388F21CDD78300789A2B /* HalfModalTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalTransitioningDelegate.swift; sourceTree = "<group>"; };
+		FE8F389421CDD83500789A2B /* HalfModalPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalPresentationController.swift; sourceTree = "<group>"; };
+		FE8F389621CDD85E00789A2B /* Modal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Modal.storyboard; sourceTree = "<group>"; };
+		FE8F389921CDD89100789A2B /* VBSelectAssetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBSelectAssetsViewController.swift; sourceTree = "<group>"; };
+		FE8F389B21D0F65D00789A2B /* VBSettingsNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBSettingsNavViewController.swift; sourceTree = "<group>"; };
+		FE8F389E21D0F71800789A2B /* VBSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBSettingsViewController.swift; sourceTree = "<group>"; };
+		FE8F38A021D11BD100789A2B /* VBNetworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBNetworksViewController.swift; sourceTree = "<group>"; };
+		FEC470AC21C7AED40035BB0A /* VBMainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBMainTabViewController.swift; sourceTree = "<group>"; };
+		FEF1670921C3B32C004497B3 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		FEF167C821C3B49B004497B3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +374,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF167C921C3B49B004497B3 /* Security.framework in Frameworks */,
+				4FC9C8CBEBD630D573F309F4 /* Pods_MEOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +383,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF8C674051568BDF4F585BA5 /* Pods_MEOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +391,321 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9731F15D5674B96C7FD628 /* Pods_MEOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A06C7456B2857D55C5A01CAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEF167C821C3B49B004497B3 /* Security.framework */,
+				542C21D102DA8776594B6B81 /* Pods_MEOS.framework */,
+				EBD988D626162A44E1979707 /* Pods_MEOSTests.framework */,
+				A58E73A34EBCA03E0A0A7B6C /* Pods_MEOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF8A9F4EDB219C080ACE5422 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB663810599D48D68ADB5F /* Pods-MEOS.debug.xcconfig */,
+				95D0A8705E28BDE5D262FBED /* Pods-MEOS.release.xcconfig */,
+				9D0AEF87BFB63037308FADE0 /* Pods-MEOSTests.debug.xcconfig */,
+				2D49989C881F4D82C5A05EEB /* Pods-MEOSTests.release.xcconfig */,
+				3FBE7571ACC88B9DE4CB8AF1 /* Pods-MEOSUITests.debug.xcconfig */,
+				62DAE5A8E4C55FDD20330FB8 /* Pods-MEOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE379D7821DCBED100F81BDB /* OnBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FE379D7921DCCB8C00F81BDB /* VBEnterViewController.swift */,
+			);
+			path = OnBoard;
+			sourceTree = "<group>";
+		};
+		FE6D0D1621C903B100CAE199 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0D1721C903D100CAE199 /* VBTokenTableViewCell.swift */,
+				FE6D0D3621CA558A00CAE199 /* VBVoteTableViewCell.swift */,
+				FE379D7421DCB93B00F81BDB /* VBNetowrksTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		FE6D0D3321CA4F2200CAE199 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0D3421CA4F3F00CAE199 /* BPRealm.swift */,
+				FE8F388821CD6E4600789A2B /* TokensRealm.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		FE6D0E8321CAE90A00CAE199 /* eosio */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0E8421CAE90A00CAE199 /* Categories */,
+				FE6D0E9221CAE90A00CAE199 /* Coins */,
+				FE6D0ECD21CAE90A00CAE199 /* crypto */,
+				FE6D0F4421CAE93800CAE199 /* Libraries */,
+				FE6D0F1221CAE90A00CAE199 /* eosio.h */,
+				FE6D0F6021CAEB2500CAE199 /* Crypto.swift */,
+				FE6D0F6221CAEB2500CAE199 /* KeyPair.swift */,
+				FE6D0F5F21CAEB2500CAE199 /* PrivateKey.swift */,
+				FE6D0F6121CAEB2500CAE199 /* PublicKey.swift */,
+			);
+			path = eosio;
+			sourceTree = "<group>";
+		};
+		FE6D0E8421CAE90A00CAE199 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0E8521CAE90A00CAE199 /* BigNumber.h */,
+				FE6D0E8621CAE90A00CAE199 /* BigNumber.m */,
+				FE6D0E8721CAE90A00CAE199 /* Categories.h */,
+				FE6D0E8821CAE90A00CAE199 /* NSData+Extend.h */,
+				FE6D0E8921CAE90A00CAE199 /* NSData+Extend.m */,
+				FE6D0E8A21CAE90A00CAE199 /* NSData+Hash.h */,
+				FE6D0E8B21CAE90A00CAE199 /* NSData+Hash.m */,
+				FE6D0E8C21CAE90A00CAE199 /* NSMutableData+Extend.h */,
+				FE6D0E8D21CAE90A00CAE199 /* NSMutableData+Extend.m */,
+				FE6D0E8E21CAE90A00CAE199 /* NSString+Base58.h */,
+				FE6D0E8F21CAE90A00CAE199 /* NSString+Base58.m */,
+				FE6D0E9021CAE90A00CAE199 /* SHAHash.h */,
+				FE6D0E9121CAE90A00CAE199 /* SHAHash.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FE6D0E9221CAE90A00CAE199 /* Coins */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0E9321CAE90A00CAE199 /* CoinFamily.h */,
+				FE6D0E9421CAE90A00CAE199 /* Core */,
+				FE6D0EA221CAE90A00CAE199 /* EOS */,
+				FE6D0ECB21CAE90A00CAE199 /* MnemonicCode.h */,
+				FE6D0ECC21CAE90A00CAE199 /* MnemonicCode.m */,
+			);
+			path = Coins;
+			sourceTree = "<group>";
+		};
+		FE6D0E9421CAE90A00CAE199 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0E9521CAE90A00CAE199 /* ChildNumber.h */,
+				FE6D0E9621CAE90A00CAE199 /* ChildNumber.m */,
+				FE6D0E9721CAE90A00CAE199 /* DeterministicKey.h */,
+				FE6D0E9821CAE90A00CAE199 /* DeterministicKey.m */,
+				FE6D0E9921CAE90A00CAE199 /* ECKey.h */,
+				FE6D0E9A21CAE90A00CAE199 /* ECKey.m */,
+				FE6D0E9B21CAE90A00CAE199 /* ECKeySignature.h */,
+				FE6D0E9C21CAE90A00CAE199 /* ECKeySignature.m */,
+				FE6D0E9D21CAE90A00CAE199 /* Eos */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FE6D0E9D21CAE90A00CAE199 /* Eos */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0E9E21CAE90A00CAE199 /* EosDeterministicKey.h */,
+				FE6D0E9F21CAE90A00CAE199 /* EosDeterministicKey.m */,
+				FE6D0EA021CAE90A00CAE199 /* EosECKey.h */,
+				FE6D0EA121CAE90A00CAE199 /* EosECKey.m */,
+			);
+			path = Eos;
+			sourceTree = "<group>";
+		};
+		FE6D0EA221CAE90A00CAE199 /* EOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0EA321CAE90A00CAE199 /* EOSAccountName.h */,
+				FE6D0EA421CAE90A00CAE199 /* EOSAccountName.m */,
+				FE6D0EA521CAE90A00CAE199 /* EOSAccountPermission.h */,
+				FE6D0EA621CAE90A00CAE199 /* EOSAccountPermission.m */,
+				FE6D0EA721CAE90A00CAE199 /* EOSAccountPermissionWeight.h */,
+				FE6D0EA821CAE90A00CAE199 /* EOSAccountPermissionWeight.m */,
+				FE6D0EA921CAE90A00CAE199 /* EOSAction.h */,
+				FE6D0EAA21CAE90A00CAE199 /* EOSAction.m */,
+				FE6D0EAB21CAE90A00CAE199 /* EOSAddress.h */,
+				FE6D0EAC21CAE90A00CAE199 /* EOSAddress.m */,
+				FE6D0EAD21CAE90A00CAE199 /* EOSAuthority.h */,
+				FE6D0EAE21CAE90A00CAE199 /* EOSAuthority.m */,
+				FE6D0EAF21CAE90A00CAE199 /* EOSKeyPermissionWeight.h */,
+				FE6D0EB021CAE90A00CAE199 /* EOSKeyPermissionWeight.m */,
+				FE6D0EB121CAE90A00CAE199 /* EOSTransaction.h */,
+				FE6D0EB221CAE90A00CAE199 /* EOSTransaction.m */,
+				FE6D0EB321CAE90A00CAE199 /* EOSWaitWeight.h */,
+				FE6D0EB421CAE90A00CAE199 /* EOSWaitWeight.m */,
+				FE6D0EB521CAE90A00CAE199 /* Message */,
+			);
+			path = EOS;
+			sourceTree = "<group>";
+		};
+		FE6D0EB521CAE90A00CAE199 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0EB621CAE90A00CAE199 /* EOSAsset.h */,
+				FE6D0EB721CAE90A00CAE199 /* EOSAsset.m */,
+				FE6D0EB821CAE90A00CAE199 /* EOSBuyRamMessageData.h */,
+				FE6D0EB921CAE90A00CAE199 /* EOSBuyRamMessageData.m */,
+				FE6D0EBA21CAE90A00CAE199 /* EOSByteMessageData.h */,
+				FE6D0EBB21CAE90A00CAE199 /* EOSByteMessageData.m */,
+				FE6D0EBC21CAE90A00CAE199 /* EOSDelegatebwMessageData.h */,
+				FE6D0EBD21CAE90A00CAE199 /* EOSDelegatebwMessageData.m */,
+				FE6D0EBE21CAE90A00CAE199 /* EOSMessageData.h */,
+				FE6D0EBF21CAE90A00CAE199 /* EOSNewMessageData.h */,
+				FE6D0EC021CAE90A00CAE199 /* EOSNewMessageData.m */,
+				FE6D0EC121CAE90A00CAE199 /* EOSRegProxyMessageData.h */,
+				FE6D0EC221CAE90A00CAE199 /* EOSRegProxyMessageData.m */,
+				FE6D0EC321CAE90A00CAE199 /* EOSSellRamMessageData.h */,
+				FE6D0EC421CAE90A00CAE199 /* EOSSellRamMessageData.m */,
+				FE6D0EC521CAE90A00CAE199 /* EOSTxMessageData.h */,
+				FE6D0EC621CAE90A00CAE199 /* EOSTxMessageData.m */,
+				FE6D0EC721CAE90A00CAE199 /* EOSUnDelegatebwMessageData.h */,
+				FE6D0EC821CAE90A00CAE199 /* EOSUnDelegatebwMessageData.m */,
+				FE6D0EC921CAE90A00CAE199 /* EOSVoteProducerMessageData.h */,
+				FE6D0ECA21CAE90A00CAE199 /* EOSVoteProducerMessageData.m */,
+				FE8F388521CCEE6900789A2B /* EOSNoticeMessageData.h */,
+				FE8F388621CCEECF00789A2B /* EOSNoticeMessageData.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		FE6D0ECD21CAE90A00CAE199 /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0ECE21CAE90A00CAE199 /* base58.c */,
+				FE6D0ECF21CAE90A00CAE199 /* base58.h */,
+				FE6D0ED021CAE90A00CAE199 /* bignum.c */,
+				FE6D0ED121CAE90A00CAE199 /* bignum.h */,
+				FE6D0ED221CAE90A00CAE199 /* bip39.c */,
+				FE6D0ED321CAE90A00CAE199 /* bip39.h */,
+				FE6D0ED421CAE90A00CAE199 /* blake256.c */,
+				FE6D0ED521CAE90A00CAE199 /* blake256.h */,
+				FE6D0ED621CAE90A00CAE199 /* ecdsa.c */,
+				FE6D0ED721CAE90A00CAE199 /* ecdsa.h */,
+				FE6D0ED821CAE90A00CAE199 /* hasher.c */,
+				FE6D0ED921CAE90A00CAE199 /* hasher.h */,
+				FE6D0EDA21CAE90A00CAE199 /* hmac.c */,
+				FE6D0EDB21CAE90A00CAE199 /* hmac.h */,
+				FE6D0EDC21CAE90A00CAE199 /* memzero.c */,
+				FE6D0EDD21CAE90A00CAE199 /* memzero.h */,
+				FE6D0EDE21CAE90A00CAE199 /* options.h */,
+				FE6D0EDF21CAE90A00CAE199 /* pbkdf2.c */,
+				FE6D0EE021CAE90A00CAE199 /* pbkdf2.h */,
+				FE6D0EE121CAE90A00CAE199 /* rand.c */,
+				FE6D0EE221CAE90A00CAE199 /* rand.h */,
+				FE6D0EE321CAE90A00CAE199 /* rfc6979.h */,
+				FE6D0EE421CAE90A00CAE199 /* ripemd160.c */,
+				FE6D0EE521CAE90A00CAE199 /* ripemd160.h */,
+				FE6D0EE621CAE90A00CAE199 /* secp256k1.c */,
+				FE6D0EE721CAE90A00CAE199 /* secp256k1.h */,
+				FE6D0EE821CAE90A00CAE199 /* secp256k1.table */,
+				FE6D0EE921CAE90A00CAE199 /* secp256k1_zkp */,
+				FE6D0F1021CAE90A00CAE199 /* sha2.c */,
+				FE6D0F1121CAE90A00CAE199 /* sha2.h */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
+		FE6D0EE921CAE90A00CAE199 /* secp256k1_zkp */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0EEA21CAE90A00CAE199 /* bench.h */,
+				FE6D0EEB21CAE90A00CAE199 /* borromean.h */,
+				FE6D0EEC21CAE90A00CAE199 /* borromean_impl.h */,
+				FE6D0EED21CAE90A00CAE199 /* ecdh.h */,
+				FE6D0EEE21CAE90A00CAE199 /* ecdh_impl.h */,
+				FE6D0EEF21CAE90A00CAE199 /* ecdsa_impl.h */,
+				FE6D0EF021CAE90A00CAE199 /* ecdsa_zkp.h */,
+				FE6D0EF121CAE90A00CAE199 /* eckey_impl.h */,
+				FE6D0EF221CAE90A00CAE199 /* eckey_zkp.h */,
+				FE6D0EF321CAE90A00CAE199 /* ecmult.h */,
+				FE6D0EF421CAE90A00CAE199 /* ecmult_gen.h */,
+				FE6D0EF521CAE90A00CAE199 /* ecmult_gen_impl.h */,
+				FE6D0EF621CAE90A00CAE199 /* ecmult_impl.h */,
+				FE6D0EF721CAE90A00CAE199 /* field.h */,
+				FE6D0EF821CAE90A00CAE199 /* field_10x26.h */,
+				FE6D0EF921CAE90A00CAE199 /* field_10x26_impl.h */,
+				FE6D0EFA21CAE90A00CAE199 /* field_5x52.h */,
+				FE6D0EFB21CAE90A00CAE199 /* field_5x52_impl.h */,
+				FE6D0EFC21CAE90A00CAE199 /* field_5x52_int128_impl.h */,
+				FE6D0EFD21CAE90A00CAE199 /* field_impl.h */,
+				FE6D0EFE21CAE90A00CAE199 /* group.h */,
+				FE6D0EFF21CAE90A00CAE199 /* group_impl.h */,
+				FE6D0F0021CAE90A00CAE199 /* hash.h */,
+				FE6D0F0121CAE90A00CAE199 /* hash_impl.h */,
+				FE6D0F0221CAE90A00CAE199 /* libsecp256k1-config.h */,
+				FE6D0F0321CAE90A00CAE199 /* num.h */,
+				FE6D0F0421CAE90A00CAE199 /* num_gmp.h */,
+				FE6D0F0521CAE90A00CAE199 /* num_gmp_impl.h */,
+				FE6D0F0621CAE90A00CAE199 /* num_impl.h */,
+				FE6D0F0721CAE90A00CAE199 /* rangeproof.h */,
+				FE6D0F0821CAE90A00CAE199 /* rangeproof_impl.h */,
+				FE6D0F0921CAE90A00CAE199 /* scalar.h */,
+				FE6D0F0A21CAE90A00CAE199 /* scalar_8x32.h */,
+				FE6D0F0B21CAE90A00CAE199 /* scalar_8x32_impl.h */,
+				FE6D0F0C21CAE90A00CAE199 /* scalar_impl.h */,
+				FE6D0F0D21CAE90A00CAE199 /* secp256k1_zkp.c */,
+				FE6D0F0E21CAE90A00CAE199 /* secp256k1_zkp.h */,
+				FE6D0F0F21CAE90A00CAE199 /* util.h */,
+			);
+			path = secp256k1_zkp;
+			sourceTree = "<group>";
+		};
+		FE6D0F4421CAE93800CAE199 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0F4521CAE93800CAE199 /* include */,
+				FE6D0F5121CAE93800CAE199 /* src */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		FE6D0F4521CAE93800CAE199 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0F4621CAE93800CAE199 /* base58.c */,
+				FE6D0F4721CAE93800CAE199 /* Bridging-Header.h */,
+				FE6D0F4821CAE93800CAE199 /* curve-specific.inc */,
+				FE6D0F4921CAE93800CAE199 /* libbase58.h */,
+				FE6D0F4A21CAE93800CAE199 /* platform-specific.inc */,
+				FE6D0F4B21CAE93800CAE199 /* ripemds160.c */,
+				FE6D0F4C21CAE93800CAE199 /* ripemds160.h */,
+				FE6D0F4D21CAE93800CAE199 /* types.h */,
+				FE6D0F4E21CAE93800CAE199 /* uECC.c */,
+				FE6D0F4F21CAE93800CAE199 /* uECC.h */,
+				FE6D0F5021CAE93800CAE199 /* uECC_vli.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FE6D0F5121CAE93800CAE199 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		FE885E8421C39B6700F1D103 = {
 			isa = PBXGroup;
 			children = (
+				FEF1670921C3B32C004497B3 /* Bridge-Header.h */,
 				FE885E8F21C39B6700F1D103 /* MEOS */,
 				FE885EA421C39B6900F1D103 /* MEOSTests */,
 				FE885EAF21C39B6900F1D103 /* MEOSUITests */,
 				FE885E8E21C39B6700F1D103 /* Products */,
+				A06C7456B2857D55C5A01CAD /* Frameworks */,
+				BF8A9F4EDB219C080ACE5422 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +722,17 @@
 		FE885E8F21C39B6700F1D103 /* MEOS */ = {
 			isa = PBXGroup;
 			children = (
+				FE6D0E8321CAE90A00CAE199 /* eosio */,
+				FE6D0D0D21C8F13000CAE199 /* MEOS.entitlements */,
+				FEF1670621C3B2C4004497B3 /* Views */,
+				FEF1670521C3B2B1004497B3 /* Extensions */,
+				FEF1670221C3B24F004497B3 /* Models */,
+				FEF1670421C3B264004497B3 /* Controllers */,
+				FEF1670321C3B25A004497B3 /* Storyboards */,
 				FE885E9021C39B6700F1D103 /* AppDelegate.swift */,
-				FE885E9221C39B6700F1D103 /* ViewController.swift */,
-				FE885E9421C39B6700F1D103 /* Main.storyboard */,
 				FE885E9721C39B6800F1D103 /* Assets.xcassets */,
-				FE885E9921C39B6800F1D103 /* LaunchScreen.storyboard */,
 				FE885E9C21C39B6800F1D103 /* Info.plist */,
+				FE6D0D0E21C8F27000CAE199 /* Network.swift */,
 			);
 			path = MEOS;
 			sourceTree = "<group>";
@@ -125,6 +755,120 @@
 			path = MEOSUITests;
 			sourceTree = "<group>";
 		};
+		FE8F388A21CDD73800789A2B /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F388B21CDD74E00789A2B /* HalfModalInteractiveTransition.swift */,
+				FE8F388D21CDD76A00789A2B /* HalfModalTransitionAnimator.swift */,
+				FE8F388F21CDD78300789A2B /* HalfModalTransitioningDelegate.swift */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		FE8F389321CDD82500789A2B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F389421CDD83500789A2B /* HalfModalPresentationController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FE8F389821CDD87F00789A2B /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F389921CDD89100789A2B /* VBSelectAssetsViewController.swift */,
+				FE8F38A021D11BD100789A2B /* VBNetworksViewController.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		FE8F389D21D0F70100789A2B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F389B21D0F65D00789A2B /* VBSettingsNavViewController.swift */,
+				FE8F389E21D0F71800789A2B /* VBSettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FEF1670221C3B24F004497B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0D3321CA4F2200CAE199 /* DB */,
+				FE6D0D0B21C8F0DE00CAE199 /* AccountData.swift */,
+				FE6D0D2721C9217100CAE199 /* Account.swift */,
+				FE6D0D1021C8F32E00CAE199 /* TokensList.swift */,
+				FE6D0D1921C90D5100CAE199 /* Tokens.swift */,
+				FE6D0D2921C9383600CAE199 /* EosPrice.swift */,
+				FE6D0D3121CA417700CAE199 /* BPList.swift */,
+				FE6D0D3C21CA84F900CAE199 /* ChainInfo.swift */,
+				FE6D0D3E21CA869A00CAE199 /* ChainBlock.swift */,
+				FE6D0D4021CA9C2100CAE199 /* Transactions.swift */,
+				FE379D7B21DE873A00F81BDB /* AccountNames.swift */,
+				FE379D7D21DE9E4600F81BDB /* History.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEF1670321C3B25A004497B3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FE885E9421C39B6700F1D103 /* Main.storyboard */,
+				FE885E9921C39B6800F1D103 /* LaunchScreen.storyboard */,
+				FE8F389621CDD85E00789A2B /* Modal.storyboard */,
+				FE379D7621DCBDDE00F81BDB /* OnBoard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FEF1670421C3B264004497B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE379D7821DCBED100F81BDB /* OnBoard */,
+				FE8F389821CDD87F00789A2B /* Modals */,
+				FE885E9221C39B6700F1D103 /* ViewController.swift */,
+				FEC470AC21C7AED40035BB0A /* VBMainTabViewController.swift */,
+				FE6D0D0921C8EB3900CAE199 /* VBAccountViewController.swift */,
+				FE6D0D2F21CA36B100CAE199 /* VBVoteViewController.swift */,
+				FE75B6DB21CB8380009768D2 /* VBStakedViewController.swift */,
+				FE8F388321CCDE0100789A2B /* VBTransferViewController.swift */,
+				FE8F389D21D0F70100789A2B /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FEF1670521C3B2B1004497B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D0D1B21C9213200CAE199 /* Double.swift */,
+				FE6D0D2021C9213200CAE199 /* Results.swift */,
+				FE6D0D1F21C9213200CAE199 /* String.swift */,
+				FE6D0D1D21C9213200CAE199 /* UIColor.swift */,
+				FE6D0D1C21C9213200CAE199 /* UIView.swift */,
+				FE6D0D1E21C9213200CAE199 /* UIViewController.swift */,
+				FE6D0D2B21C95DC800CAE199 /* TableViewHelper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FEF1670621C3B2C4004497B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F389321CDD82500789A2B /* Presentation */,
+				FE8F388A21CDD73800789A2B /* Transitioning */,
+				FE6D0D1621C903B100CAE199 /* TableViewCell */,
+				FE6D0D0521C8D34E00CAE199 /* VBAccountView.swift */,
+				FE6D0D0721C8D36D00CAE199 /* AccountView.xib */,
+				FE6D0D1221C8FB4D00CAE199 /* VBTokenCell.swift */,
+				FE6D0D1421C8FB5E00CAE199 /* TokenCell.xib */,
+				FE6D0D3821CA55E500CAE199 /* VBProdusserCell.swift */,
+				FE6D0D3A21CA55F900CAE199 /* ProdusserCell.xib */,
+				FE75B6DD21CB90F4009768D2 /* VBStakedView.swift */,
+				FE75B6DF21CB9102009768D2 /* StakedView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +876,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE885EB521C39B6900F1D103 /* Build configuration list for PBXNativeTarget "MEOS" */;
 			buildPhases = (
+				75F98C15068CF12E6BC8258D /* [CP] Check Pods Manifest.lock */,
 				FE885E8921C39B6700F1D103 /* Sources */,
 				FE885E8A21C39B6700F1D103 /* Frameworks */,
 				FE885E8B21C39B6700F1D103 /* Resources */,
+				F6A3488DD19D01E3234203C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +895,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE885EB821C39B6900F1D103 /* Build configuration list for PBXNativeTarget "MEOSTests" */;
 			buildPhases = (
+				ACABB7C04A2C91679C8D30DD /* [CP] Check Pods Manifest.lock */,
 				FE885E9D21C39B6900F1D103 /* Sources */,
 				FE885E9E21C39B6900F1D103 /* Frameworks */,
 				FE885E9F21C39B6900F1D103 /* Resources */,
@@ -167,6 +914,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE885EBB21C39B6900F1D103 /* Build configuration list for PBXNativeTarget "MEOSUITests" */;
 			buildPhases = (
+				E714EEFDF74F3699AE2C6A47 /* [CP] Check Pods Manifest.lock */,
 				FE885EA821C39B6900F1D103 /* Sources */,
 				FE885EA921C39B6900F1D103 /* Frameworks */,
 				FE885EAA21C39B6900F1D103 /* Resources */,
@@ -187,12 +935,18 @@
 		FE885E8521C39B6700F1D103 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VB;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Vitaliy;
 				TargetAttributes = {
 					FE885E8C21C39B6700F1D103 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					FE885EA021C39B6900F1D103 = {
 						CreatedOnToolsVersion = 10.1;
@@ -230,7 +984,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE885E9B21C39B6800F1D103 /* LaunchScreen.storyboard in Resources */,
+				FE8F389721CDD85E00789A2B /* Modal.storyboard in Resources */,
+				FE6D0D1521C8FB5E00CAE199 /* TokenCell.xib in Resources */,
+				FE6D0F4021CAE90A00CAE199 /* secp256k1.table in Resources */,
+				FE6D0D0821C8D36D00CAE199 /* AccountView.xib in Resources */,
+				FE6D0D3B21CA55F900CAE199 /* ProdusserCell.xib in Resources */,
+				FE379D7721DCBDDE00F81BDB /* OnBoard.storyboard in Resources */,
 				FE885E9821C39B6800F1D103 /* Assets.xcassets in Resources */,
+				FE75B6E021CB9102009768D2 /* StakedView.xib in Resources */,
 				FE885E9621C39B6700F1D103 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +1012,227 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75F98C15068CF12E6BC8258D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACABB7C04A2C91679C8D30DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E714EEFDF74F3699AE2C6A47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A3488DD19D01E3234203C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MEOS/Pods-MEOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/BEMSimpleLineGraph/BEMSimpleLineGraph.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaSecurity/CocoaSecurity.framework",
+				"${BUILT_PRODUCTS_DIR}/DeckTransition/DeckTransition.framework",
+				"${PODS_ROOT}/MODAppSDK/MODAppSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/OpenUDID/OpenUDID.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMSimpleLineGraph.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaSecurity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeckTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MODAppSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenUDID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEOS/Pods-MEOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE885E8921C39B6700F1D103 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6D0F1D21CAE90A00CAE199 /* ECKeySignature.m in Sources */,
+				FE8F389F21D0F71800789A2B /* VBSettingsViewController.swift in Sources */,
+				FE6D0D2421C9213200CAE199 /* UIViewController.swift in Sources */,
+				FE6D0D3521CA4F3F00CAE199 /* BPRealm.swift in Sources */,
+				FE6D0D0F21C8F27000CAE199 /* Network.swift in Sources */,
+				FE6D0F4121CAE90A00CAE199 /* secp256k1_zkp.c in Sources */,
+				FE6D0F2121CAE90A00CAE199 /* EOSAccountPermission.m in Sources */,
+				FE6D0F3B21CAE90A00CAE199 /* memzero.c in Sources */,
+				FE6D0D2221C9213200CAE199 /* UIView.swift in Sources */,
+				FE6D0F3621CAE90A00CAE199 /* bip39.c in Sources */,
+				FE6D0F6721CAED8A00CAE199 /* base58.c in Sources */,
+				FE8F38A121D11BD100789A2B /* VBNetworksViewController.swift in Sources */,
+				FE379D7C21DE873A00F81BDB /* AccountNames.swift in Sources */,
+				FE6D0F4221CAE90A00CAE199 /* sha2.c in Sources */,
+				FE6D0F5421CAE93800CAE199 /* platform-specific.inc in Sources */,
+				FE379D7A21DCCB8C00F81BDB /* VBEnterViewController.swift in Sources */,
+				FE6D0D3921CA55E500CAE199 /* VBProdusserCell.swift in Sources */,
+				FE6D0F2221CAE90A00CAE199 /* EOSAccountPermissionWeight.m in Sources */,
+				FE6D0D3221CA417700CAE199 /* BPList.swift in Sources */,
+				FE6D0F3921CAE90A00CAE199 /* hasher.c in Sources */,
+				FE8F389C21D0F65D00789A2B /* VBSettingsNavViewController.swift in Sources */,
+				FE6D0F1821CAE90A00CAE199 /* NSString+Base58.m in Sources */,
+				FE8F388E21CDD76A00789A2B /* HalfModalTransitionAnimator.swift in Sources */,
+				FE6D0F1521CAE90A00CAE199 /* NSData+Extend.m in Sources */,
+				FE6D0D0621C8D34E00CAE199 /* VBAccountView.swift in Sources */,
+				FE6D0F3C21CAE90A00CAE199 /* pbkdf2.c in Sources */,
+				FE75B6DE21CB90F4009768D2 /* VBStakedView.swift in Sources */,
+				FE6D0D2A21C9383600CAE199 /* EosPrice.swift in Sources */,
+				FE8F388421CCDE0100789A2B /* VBTransferViewController.swift in Sources */,
+				FE6D0F1721CAE90A00CAE199 /* NSMutableData+Extend.m in Sources */,
+				FE8F388C21CDD74E00789A2B /* HalfModalInteractiveTransition.swift in Sources */,
+				FE6D0D1821C903D100CAE199 /* VBTokenTableViewCell.swift in Sources */,
+				FE8F389A21CDD89100789A2B /* VBSelectAssetsViewController.swift in Sources */,
+				FE6D0F2621CAE90A00CAE199 /* EOSKeyPermissionWeight.m in Sources */,
+				FE6D0F2F21CAE90A00CAE199 /* EOSSellRamMessageData.m in Sources */,
+				FE6D0F1A21CAE90A00CAE199 /* ChildNumber.m in Sources */,
+				FE379D7E21DE9E4600F81BDB /* History.swift in Sources */,
 				FE885E9321C39B6700F1D103 /* ViewController.swift in Sources */,
+				FE6D0F6621CAEB2500CAE199 /* KeyPair.swift in Sources */,
+				FE6D0F1E21CAE90A00CAE199 /* EosDeterministicKey.m in Sources */,
+				FE6D0D0A21C8EB3900CAE199 /* VBAccountViewController.swift in Sources */,
+				FE8F389521CDD83500789A2B /* HalfModalPresentationController.swift in Sources */,
+				FE6D0F2521CAE90A00CAE199 /* EOSAuthority.m in Sources */,
+				FE6D0F2821CAE90A00CAE199 /* EOSWaitWeight.m in Sources */,
+				FE6D0F2E21CAE90A00CAE199 /* EOSRegProxyMessageData.m in Sources */,
+				FE6D0D4121CA9C2100CAE199 /* Transactions.swift in Sources */,
+				FE6D0F3D21CAE90A00CAE199 /* rand.c in Sources */,
+				FE6D0F6521CAEB2500CAE199 /* PublicKey.swift in Sources */,
+				FE6D0D3721CA558A00CAE199 /* VBVoteTableViewCell.swift in Sources */,
+				FE6D0F3F21CAE90A00CAE199 /* secp256k1.c in Sources */,
+				FE6D0D1321C8FB4D00CAE199 /* VBTokenCell.swift in Sources */,
+				FE379D7521DCB93B00F81BDB /* VBNetowrksTableViewCell.swift in Sources */,
+				FE6D0D2521C9213200CAE199 /* String.swift in Sources */,
+				FE6D0F2321CAE90A00CAE199 /* EOSAction.m in Sources */,
+				FE6D0F2421CAE90A00CAE199 /* EOSAddress.m in Sources */,
+				FE6D0F2A21CAE90A00CAE199 /* EOSBuyRamMessageData.m in Sources */,
+				FE6D0F3A21CAE90A00CAE199 /* hmac.c in Sources */,
+				FE6D0F2C21CAE90A00CAE199 /* EOSDelegatebwMessageData.m in Sources */,
+				FE6D0F6321CAEB2500CAE199 /* PrivateKey.swift in Sources */,
+				FE6D0F2921CAE90A00CAE199 /* EOSAsset.m in Sources */,
+				FE6D0F1621CAE90A00CAE199 /* NSData+Hash.m in Sources */,
+				FE6D0F1C21CAE90A00CAE199 /* ECKey.m in Sources */,
+				FE6D0F3221CAE90A00CAE199 /* EOSVoteProducerMessageData.m in Sources */,
+				FE6D0D2321C9213200CAE199 /* UIColor.swift in Sources */,
+				FE75B6DC21CB8380009768D2 /* VBStakedViewController.swift in Sources */,
+				FEC470AD21C7AED40035BB0A /* VBMainTabViewController.swift in Sources */,
+				FE6D0D2121C9213200CAE199 /* Double.swift in Sources */,
+				FE6D0D3D21CA84F900CAE199 /* ChainInfo.swift in Sources */,
+				FE6D0F2021CAE90A00CAE199 /* EOSAccountName.m in Sources */,
+				FE6D0D1A21C90D5100CAE199 /* Tokens.swift in Sources */,
+				FE6D0D2821C9217100CAE199 /* Account.swift in Sources */,
+				FE6D0F1B21CAE90A00CAE199 /* DeterministicKey.m in Sources */,
+				FE6D0F5321CAE93800CAE199 /* curve-specific.inc in Sources */,
+				FE6D0D2C21C95DC800CAE199 /* TableViewHelper.swift in Sources */,
+				FE8F389021CDD78300789A2B /* HalfModalTransitioningDelegate.swift in Sources */,
+				FE6D0F2B21CAE90A00CAE199 /* EOSByteMessageData.m in Sources */,
+				FE6D0D2621C9213200CAE199 /* Results.swift in Sources */,
+				FE6D0F5521CAE93800CAE199 /* ripemds160.c in Sources */,
+				FE6D0D1121C8F32E00CAE199 /* TokensList.swift in Sources */,
+				FE8F388721CCEECF00789A2B /* EOSNoticeMessageData.m in Sources */,
+				FE6D0F2721CAE90A00CAE199 /* EOSTransaction.m in Sources */,
 				FE885E9121C39B6700F1D103 /* AppDelegate.swift in Sources */,
+				FE6D0D0C21C8F0DE00CAE199 /* AccountData.swift in Sources */,
+				FE8F388921CD6E4600789A2B /* TokensRealm.swift in Sources */,
+				FE6D0D3021CA36B100CAE199 /* VBVoteViewController.swift in Sources */,
+				FE6D0F5621CAE93800CAE199 /* uECC.c in Sources */,
+				FE6D0F3821CAE90A00CAE199 /* ecdsa.c in Sources */,
+				FE6D0F1421CAE90A00CAE199 /* BigNumber.m in Sources */,
+				FE6D0F3E21CAE90A00CAE199 /* ripemd160.c in Sources */,
+				FE6D0F3721CAE90A00CAE199 /* blake256.c in Sources */,
+				FE6D0F3121CAE90A00CAE199 /* EOSUnDelegatebwMessageData.m in Sources */,
+				FE6D0F6421CAEB2500CAE199 /* Crypto.swift in Sources */,
+				FE6D0F3321CAE90A00CAE199 /* MnemonicCode.m in Sources */,
+				FE6D0F2D21CAE90A00CAE199 /* EOSNewMessageData.m in Sources */,
+				FE6D0F1F21CAE90A00CAE199 /* EosECKey.m in Sources */,
+				FE6D0F1921CAE90A00CAE199 /* SHAHash.m in Sources */,
+				FE6D0F3021CAE90A00CAE199 /* EOSTxMessageData.m in Sources */,
+				FE6D0D3F21CA869A00CAE199 /* ChainBlock.swift in Sources */,
+				FE6D0F3521CAE90A00CAE199 /* bignum.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,42 +1405,51 @@
 		};
 		FE885EB621C39B6900F1D103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCB663810599D48D68ADB5F /* Pods-MEOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MEOS/MEOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2SDG25HB4;
 				INFOPLIST_FILE = MEOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.MEOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.meos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FE885EB721C39B6900F1D103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D0A8705E28BDE5D262FBED /* Pods-MEOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MEOS/MEOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2SDG25HB4;
 				INFOPLIST_FILE = MEOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.MEOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitbut.meos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		FE885EB921C39B6900F1D103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0AEF87BFB63037308FADE0 /* Pods-MEOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +1471,7 @@
 		};
 		FE885EBA21C39B6900F1D103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D49989C881F4D82C5A05EEB /* Pods-MEOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1493,7 @@
 		};
 		FE885EBC21C39B6900F1D103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBE7571ACC88B9DE4CB8AF1 /* Pods-MEOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +1514,7 @@
 		};
 		FE885EBD21C39B6900F1D103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DAE5A8E4C55FDD20330FB8 /* Pods-MEOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
