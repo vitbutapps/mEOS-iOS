@@ -3,12 +3,16 @@ The first full-fledged mobile application for the EOS blockchain network
 <br>
 <a href="https://www.mobileeos.io">www.mobileeos.io</a>
 <br>
-<a href="https://itunes.apple.com/us/app/meos-folio/id1448413142?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ru-ru/badge-lrg.svg?releaseDate=2019-01-24&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
+<br>
+<a href="https://itunes.apple.com/us/app/meos-folio/id1448413142?mt=8"><img src="http://www.mobileeos.io/img/appstore.png" width="135" hight="40" alt=""></a>
+<br>
 <br>
 <img src="http://www.mobileeos.io/images/Real.png" width="250" alt="">
 <img src="http://www.mobileeos.io/images/Real1.png" width="250" alt="">
 <br>
-<a href="https://itunes.apple.com/us/app/meos-folio/id1448413142?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ru-ru/badge-lrg.svg?releaseDate=2019-01-24&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
+<br>
+<a href="https://itunes.apple.com/us/app/meos-folio/id1448413142?mt=8"><img src="http://www.mobileeos.io/img/appstore.png" width="135" hight="40" alt=""></a>
+<br>
 <br>
 The intuitive design of the application allows the user to easily understand the operation of the application. 
 We are constantly working to improve our application, and will add new features. 
